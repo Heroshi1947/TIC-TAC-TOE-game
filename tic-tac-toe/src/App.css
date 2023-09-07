@@ -1,0 +1,11 @@
+:root{
+  --yellow : #28e1e1 ;
+}
+
+body{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}

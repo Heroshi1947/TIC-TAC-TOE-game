@@ -1,0 +1,36 @@
+.grid{
+
+    height: 470px;
+    width: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.titlediv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title{
+    color: rgb(26, 2, 2);
+    text-decoration: underline;
+    background-color: #ff8bbb;
+}
+.turn-highlight {
+    color :rgb(225, 0, 124);
+}
+
+.reset{
+    color: rgb(255, 255, 255);
+    background-color: rgba(19, 16, 16, 0.993);
+    padding: 5px;
+    border-radius: 10%;
+}
+.reset:hover {
+    color: red;
+    padding: 8px;
+}
